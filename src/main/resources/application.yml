@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hashing-beyond-passwords
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+demo:
+  webhook-secret: ${DEMO_WEBHOOK_SECRET:local-demo-secret-change-me}
